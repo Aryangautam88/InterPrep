@@ -1,0 +1,16 @@
+.wrap {
+  padding: 40px 16px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.wrap h3 {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-size: 18px;
+}
+
+.wrap p {
+  margin: 0;
+  font-size: 14px;
+}

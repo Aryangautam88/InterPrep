@@ -1,0 +1,28 @@
+.sidebar {
+  width: var(--sidebar-w);
+  min-height: 100%;
+  background: var(--bg-elevated);
+  border-right: 1px solid var(--border);
+  padding: 16px 12px 24px;
+}
+
+.brand {
+  padding: 8px 10px 18px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link:hover,
+.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
